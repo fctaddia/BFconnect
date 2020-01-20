@@ -19,8 +19,13 @@ Going around the school, families will be able to receive information about work
 For those who have a device that cannot read the NFC tag, it will still be possible to use the application through the use of the **QRcode**.
 
 ### Why would I use it?
-
 BFconnect is the **only** app that allows people to understand the **value** of the school they are visiting, giving them the **opportunity** to bring home the information obtained within the school, not only training plans related to the school's addresses but also offering interactive content on the **laboratories** that make up the school.
 The IIS Belluzzi Fioravanti has already adopted this application and already **benefits** from the numerous advantages of BFconnect including greater **visibility** both on the web and in the field of smartphones.
 A school should adopt it because with BFconnect it is possible to have a statistics of the number of **interest** for each address of the school so as to know what to improve in **future**.
 To conclude, it is no longer the same **Open Day with BFconnect**.
+
+### CONTRIBUTING
+There are many ways to [contribute](./docs/CONTRIBUTING.md), you can
+- submit bugs,
+- help track issues,
+- review code changes.
