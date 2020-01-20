@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    tools:context=".helper.BookingActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_book"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ToolbarTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBook"
+        android:fontFamily="@font/bfconnect"
+        android:textStyle="bold"
+        app:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="PRENOTA"
+        app:cornerRadius="10dp"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="120dp"
+        android:elevation="1dp">
+    </com.google.android.material.button.MaterialButton>
+
+</RelativeLayout>

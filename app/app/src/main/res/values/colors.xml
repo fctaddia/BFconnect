@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorRed">#E60202</color>
+    <color name="colorAccent">#263238</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#383838</color>
+    <color name="gray">#5b5b5b</color>
+    <color name="light_gray">#ecebeb</color>
+    <color name="shape_gray">#fafafa</color>
+    <color name="desi">#e51e23</color>
+    <color name="mast">#231f20</color>
+    <color name="carpigiani">#0166c2</color>
+    <color name="filosofia">#ACD9F1</color>
+    <color name="tap_bottomsheet">#5b5b5b</color>
+    <color name="light_blue">#d2e3fe</color>
+    <color name="gray_card">#cccccc</color>
+    <color name="gray_frag">#b8b6b6</color>
+    <color name="pdf">#f2f2f2</color>
+</resources>

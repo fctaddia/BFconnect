@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.56882256" />
+
+    <TextView
+        android:id="@+id/intro_title"
+        android:fontFamily="@font/bfconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/btnNext_mB"
+        android:layout_marginLeft="@dimen/btnNext_mB"
+        android:layout_marginEnd="@dimen/btnNext_mB"
+        android:layout_marginRight="@dimen/btnNext_mB"
+        android:layout_marginBottom="@dimen/viewPager_mB"
+        android:text="@string/ls_Title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/ls_TS"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <TextView
+        android:lineSpacingExtra="@dimen/btnNext_mB"
+        android:id="@+id/intro_description"
+        android:fontFamily="@font/bfconnect"
+        android:layout_width="@dimen/viewPager_w"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/btnNext_mER"
+        android:layout_marginLeft="@dimen/btnNext_mER"
+        android:layout_marginTop="@dimen/viewPager_mB"
+        android:layout_marginEnd="@dimen/btnNext_mER"
+        android:layout_marginRight="@dimen/btnNext_mER"
+        android:layout_marginBottom="@dimen/viewPager_mB"
+        android:text="@string/ls_Title"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro_title"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <ImageView
+        android:id="@+id/intro_img"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ls_img_h"
+        android:layout_marginStart="@dimen/viewPager_mB"
+        android:layout_marginLeft="@dimen/viewPager_mB"
+        android:layout_marginEnd="@dimen/viewPager_mB"
+        android:layout_marginRight="@dimen/viewPager_mB"
+        android:layout_marginBottom="@dimen/btnNext_mER"
+        app:layout_constraintBottom_toTopOf="@+id/intro_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="114dp"
+        app:alignmentMode="alignMargins"
+        app:columnCount="2"
+        app:columnOrderPreserved="false"
+        android:padding="30dp"
+        app:rowCount="2">
+
+        <!-- 1 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_nfc"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:columnCount="0"
+            android:rowCount="0"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_rileva" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/bfconnect"
+                android:text="NFC"
+                android:textColor="@color/tap_bottomsheet"
+                android:textStyle="bold"
+
+                />
+        </androidx.cardview.widget.CardView>
+
+        <!-- 2 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_qr"
+            android:columnCount="1"
+            android:rowCount="0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="9dp"
+                android:src="@drawable/ic_qr" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/bfconnect"
+                android:text="QRcode"
+                android:textColor="@color/tap_bottomsheet"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- 3 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_about"
+            android:columnCount="0"
+            android:rowCount="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_about_us" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/bfconnect"
+                android:text="Contatti"
+                android:textColor="@color/tap_bottomsheet"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- 4 -->
+        <androidx.cardview.widget.CardView
+            android:columnCount="1"
+            android:rowCount="1"
+            android:id="@+id/cv_prenota"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_prenota" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/bfconnect"
+                android:text="Prenota"
+                android:textColor="@color/tap_bottomsheet"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

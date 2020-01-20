@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="viewPager_w">0dp</dimen>
+    <dimen name="viewPager_h">0dp</dimen>
+    <dimen name="viewPager_mB">8dp</dimen>
+    <dimen name="btnNext_mER">32dp</dimen>
+    <dimen name="btnNext_mB">16dp</dimen>
+    <dimen name="ls_TS">32dp</dimen>
+    <dimen name="ls_img_h">222dp</dimen>
+    <dimen name="peekHeight">120dp</dimen>
+
+    <item name="match_parent" format="integer" type="dimen">-1</item>
+    <item name="wrap_content" format="integer" type="dimen">-2</item>
+
+    <dimen name="bookpeekHeight">@dimen/wrap_content</dimen>
+
+
+
+    <dimen name="customTitle">14sp</dimen>
+    <dimen name="customEntry">18sp</dimen>
+</resources>

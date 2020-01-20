@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="fontFamily">@font/bfconnect</item>
+    </style>
+
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorRed</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+    </style>
+
+
+    <style name="AppBottomSheetDialogTheme"
+            parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+            parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_shape</item>
+    </style>
+
+    <style name="SwitchCompatTheme" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:colorControlActivated">#ce0000</item>
+    </style>
+
+    <style name="AppThemeCustom" parent="Theme.AppCompat.Light.Dialog">
+        <item name="md_color_title">@color/black</item>
+        <item name="md_color_button_text">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="md_font_title">@font/bfconnect_font</item>
+        <item name="md_font_body">@font/bfconnect_font</item>
+        <item name="md_font_button">@font/bfconnect_font</item>
+    </style>
+
+    <style name="Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+</resources>

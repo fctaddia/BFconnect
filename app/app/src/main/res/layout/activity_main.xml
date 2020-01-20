@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity"
+    android:nestedScrollingEnabled="false"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:layout_gravity="top"
+        android:elevation="2dp"
+        android:theme="@style/ToolbarTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:layout_marginBottom="?android:attr/actionBarSize"
+        android:nestedScrollingEnabled="false"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:descendantFocusability="blocksDescendants">
+
+    </FrameLayout>
+
+    <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScrollView"
+            android:layout_width="match_parent"
+            style="@style/AppModalStyle"
+            android:visibility="gone"
+            android:layout_height="513dp"
+            android:clipToPadding="true"
+            app:behavior_hideable="false"
+            android:elevation="4dp"
+            app:layout_behavior="@string/bottom_sheet_behavior">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:elevation="10dp">
+
+                <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="5dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_tap">
+
+                </ImageView>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/tap_bottomsheet"
+                    android:layout_marginTop="8dp"
+                    android:text="Esplora la scuola..."
+                    android:fontFamily="@font/bfconnect">
+
+            </TextView>
+
+            <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp">
+
+                <ImageView
+                        android:padding="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/map1">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@drawable/selector_bottom_nav"
+        app:itemTextColor="@drawable/selector_bottom_nav"
+        app:elevation="15dp"
+        app:menu="@menu/navigation" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

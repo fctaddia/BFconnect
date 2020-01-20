@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:nestedScrollingEnabled="false"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants">
+
+        <TextView
+            android:id="@+id/school_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/bfconnect"
+            android:text="Scuola"
+            android:textSize="60sp">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/iis1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/school_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/bfconnect_font"
+            android:text="@string/activity_bf"
+            android:textColor="@color/black" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iis1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="true">
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <TextView
+            android:id="@+id/iis2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rv1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/bfconnect_font"
+            android:text="@string/address_b"
+            android:textColor="@color/black" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iis2"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="true">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/iis3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rv2"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/bfconnect_font"
+            android:text="@string/project_b"
+            android:textColor="@color/black" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iis3"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="true">
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <TextView
+            android:id="@+id/iis4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rv3"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/bfconnect_font"
+            android:text="@string/address_f"
+            android:textColor="@color/black" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iis4"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="true">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/iis6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rv4"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/bfconnect_font"
+            android:text="@string/project_f"
+            android:textColor="@color/black" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iis6"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:layout_marginBottom="20dp"
+            android:focusableInTouchMode="true">
+        </androidx.recyclerview.widget.RecyclerView>
+    </RelativeLayout>
+</ScrollView>

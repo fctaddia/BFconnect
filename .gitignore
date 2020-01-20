@@ -1,0 +1,10 @@
+*.iml
+.gradle
+/local.properties
+.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/server/db.json
+/server/local_settings.py

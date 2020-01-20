@@ -1,0 +1,306 @@
+<resources>
+    <string name="app_name">BFconnect</string>
+    <string name="title_school">Scuola</string>
+    <string name="title_dashboard">Home</string>
+    <string name="title_notifications">Notifiche</string>
+    <string name="title_profile">Profilo</string>
+    <string name="title_rate_app">Valuta l\'app</string>
+    <string name="title_quit">Esci</string>
+    <string name="title_bookAction">Prenota</string>
+    <string name="btnStart">Entra</string>
+    <string name="btnNext">Avanti</string>
+    <string name="ls_Title">Text View</string>
+    <string name="title_settings">Impostazioni</string>
+    <string name="title_dev_mode">Opzioni Sviluppatore</string>
+    <string name="scan_qr_code">LEGGI QR CODE</string>
+    <string name="scan_a_code">Leggi un QR Code per ricevere info sui laboratori</string>
+    <string name="result_not_found">Id non trovato</string>
+    <string name="network_lost">Internet Disconesso</string>
+    <string name="network_regained">Internet Connesso</string>
+    <string name="iis_bf">Laboratori</string>
+    <string name="activity_bf">Attività Belluzzi-Fioravanti</string>
+    <string name="address_b">Indirizzi Belluzzi</string>
+    <string name="project_b">Progetti Belluzzi</string>
+    <string name="address_f">Indirizzi Fioravanti e Serale</string>
+    <string name="project_f">Progetti Fioravanti</string>
+
+
+    <string name="message_write_error">Errore durante la scrittura dell\'ID Code</string>
+    <string name="message_write_success">Scritto correttamente sul Tag!</string>
+    <string name="message_write_progress">Scrittura sul TAG..</string>
+    <string name="message_tag_detected">NFC Tag Rilevato !</string>
+    <string name="message_write_tag">Scrittura nel TAG</string>
+    <string name="message_tap_tag">Avvicina il tag NFC sul tuo dispositivo!</string>
+    <string name="hint_message">ID Code</string>
+
+    <string name="label_insert_PIN">Inserisci il PIN</string>
+    <string name="message">Opzioni Sviluppatore</string>
+    <string name="pin">41901</string>
+    <string name="confirm">Conferma</string>
+
+    <string name="nfc_off">NFC Disattivo</string>
+    <string name="nfc_on">NFC Attivo</string>
+    <string name="nfc_nv">NFC Assente</string>
+
+    <string name="camera_av">Camera Presente</string>
+    <string name="camera_na">Camera Assente</string>
+
+    <string name="perito_info">Perito Informatico</string>
+    <string name="perito_chimico">Perito&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Chimico</string>
+    <string name="perito_mecca">Perito Meccanico</string>
+    <string name="perito_ele">Perito Elettronico</string>
+    <string name="belluzzi">Belluzzi</string>
+
+    <string name="address_info">Informatica</string>
+    <string name="address_chimica">Chimica</string>
+    <string name="address_mecca">Meccanica</string>
+    <string name="address_ele">Elettronica</string>
+
+    <string name="shortcut_disabled_message">Error</string>
+    <string name="shortcut_nfc_l">Leggi NFC</string>
+    <string name="shortcut_nfc_s">Leggi NFC</string>
+    <string name="shortcut_qr_l">Leggi QRcode</string>
+    <string name="shortcut_qr_s">Leggi QRcode</string>
+    <string name="shortcut_pr_l">Prenota Open Day</string>
+    <string name="shortcut_pr_s">Prenota Open Day</string>
+
+    <string name="toastPrenota">Pagina non disponibile</string>
+
+    <string name="url_bfsite">http://www.iisbelluzzifioravanti.gov.it/</string>
+    <string name="url_asl">http://www.iisbelluzzifioravanti.gov.it/alternanza-scuola-lavoro/</string>
+    <string name="url_smd">http://www.iisbelluzzifioravanti.gov.it/school-maker-day/</string>
+    <string name="url_erasmus">http://www.iisbelluzzifioravanti.gov.it/erasus-plus/</string>
+    <string name="url_el">http://www.iisbelluzzifioravanti.gov.it/educazione-legalita/</string>
+    <string name="url_cisco">http://www.iisbelluzzifioravanti.gov.it/cisco-academy/</string>
+
+
+    <string name="fioravanti">Fioravanti</string>
+    <string name="image">Image</string>
+    <string name="image1">image1</string>
+    <string name="image2">image2</string>
+    <string name="image3">image3</string>
+
+
+    <string name="des_bot_add">Nel sistema scolastico, il corso di Perito tecnico industriale dell\'Istruzione Tecnica si articola in un biennio comune e un successivo triennio di specializzazione.</string>
+    <string name="per_chi">Perito Chimico</string>
+
+    <string name="name_adr_title_info">Indirizzo Informatico</string>
+    <string name="name_adr_title_chimica">Indirizzo Chimico</string>
+    <string name="name_adr_title_meccanica">Indirizzo Meccanico</string>
+    <string name="name_adr_title_ele">Indirizzo Elettronico</string>
+
+    <string name="name_adr_title_manu">Indirizzo di Manutenzione e Assistenza Tecnica</string>
+    <string name="name_adr_title_meca">Indirizzo di Apparati, impianti e servizi tecnici industriali e civili</string>
+    <string name="name_adr_title_elet">Indirizzo di Qualifiche Regionali</string>
+
+
+    <string name="title_comp">Competenze</string>
+
+    <string name="des_adr_info1">Il Diplomato in Informatica ha competenze specifiche nel campo dei sistemi informatici, dell’elaborazione, dell’informazione, delle applicazioni e tecnologie Web, delle reti e degli apparati di comunicazione</string>
+    <string name="des_adr_info2">Il Diplomato in Informatica ha competenze specifiche nel campo dei sistemi informatici, dell’elaborazione, dell’informazione, delle applicazioni e tecnologie Web, delle reti e degli apparati di comunicazione inoltre ha competenze e conoscenze che, a seconda delle diverse articolazioni, si rivolgono all’analisi, progettazione, installazione e gestione di sistemi informatici, basi di dati, reti di sistemi
+di elaborazione, sistemi multimediali e apparati di trasmissione e ricezione dei segnali; collabora nella gestione di progetti, operando nel quadro di normative nazionali e internazionali,
+concernenti la sicurezza in tutte le sue accezioni e la protezione delle informazioni (“privacy”).</string>
+
+    <string name="des_adr_chi1">Il Diplomato in Chimica ha competenze nel settore della prevenzione e della gestione di situazioni a rischio ambientale e sanitario</string>
+    <string name="des_adr_chi2">Il Diplomato in Chimica ha competenze nel settore della prevenzione e della gestione di situazioni a rischio ambientale e sanitario inoltre ha competenze specifiche nel campo dei materiali, delle analisi strumentali chimico-biologiche, nei processi di produzione, in relazione alle esigenze delle realtà territoriali, negli ambiti
+chimico, merceologico, biologico, farmaceutico, tintorio e conciario</string>
+
+    <string name="des_adr_mecc1">Il Diplomato in Meccanica ha competenze specifiche nel campo dei materiali, nella loro scelta, nei loro trattamenti e lavorazioni; inoltre, ha competenze sulle macchine e sui dispositivi utilizzati nelle industrie</string>
+    <string name="des_adr_mecc2">Il Diplomato in Meccanica ha competenze specifiche nel campo dei materiali, nella loro scelta, nei loro trattamenti e lavorazioni; inoltre, ha competenze sulle macchine e sui dispositivi utilizzati nelle industrie e inoltre nelle attività produttive d’interesse, egli collabora nella progettazione, costruzione e collaudo dei dispositivi e dei prodotti, nella realizzazione dei relativi processi produttivi; interviene
+nella manutenzione ordinaria e nell’esercizio di sistemi meccanici ed elettromeccanici complessi; è in grado di dimensionare, installare e gestire semplici impianti industriali.</string>
+
+    <string name="des_adr_ele1">Il Diplomato in Elettronica ha competenze specifiche nel campo dei sistemi elettrici, elettronici e delle macchine elettriche, della generazione, elaborazione e trasmissione dei segnali elettrici ed elettronici</string>
+    <string name="des_adr_ele2">Il Diplomato in Elettronica ha competenze specifiche nel campo dei materiali e delle tecnologie costruttive dei sistemi elettrici, elettronici e delle macchine elettriche, della generazione, elaborazione e
+trasmissione dei segnali elettrici ed elettronici, dei sistemi per la generazione, conversione e trasporto dell’energia elettrica e dei relativi impianti di distribuzione e nei contesti produttivi d’interesse, collabora nella progettazione, costruzione e collaudo di sistemi elettrici ed elettronici, di impianti elettrici e sistemi di automazione.</string>
+
+
+    <string name="des_manu1">
+        Il Diplomato in “Manutenzione ed assistenza tecnica”:
+        ha le competenze per gestire, organizzare ed effettuare interventi di installazione e manutenzione ordinaria, di diagnostica, riparazione e collaudo
+        relativamente a piccoli sistemi, impianti e apparati tecnici, anche marittimi;
+    </string>
+    <string name="des_manu2">
+        Il Diplomato in “Manutenzione ed assistenza tecnica”:
+ha le competenze per gestire, organizzare ed effettuare interventi di installazione e manutenzione ordinaria, di diagnostica, riparazione e collaudo
+relativamente a piccoli sistemi, impianti e apparati tecnici, anche marittimi;
+le sue competenze tecnico-professionali sono riferite alle filiere dei settori produttivi generali (elettronica, elettrotecnica, meccanica, termotecnica ed altri) e
+specificamente sviluppate in relazione alle esigenze espresse dal territorio.
+    </string>
+
+    <string name="des_meca1">
+        Sono attivate classi inerenti l’indirizzo di:
+Manutenzione ed assistenza tecnica
+In virtù delle opzioni consentite a livello nazionale, le classi terze, quarte e quinte fruiscono dei corsi (opzioni) di:
+Manutenzione mezzi di trasporto
+Apparati, impianti e servizi tecnici industriali e civili
+    </string>
+    <string name="des_meca2">
+        Sono attivate classi inerenti l’indirizzo di:
+Manutenzione ed assistenza tecnica
+In virtù delle opzioni consentite a livello nazionale, le classi terze, quarte e quinte fruiscono dei corsi (opzioni) di:
+Manutenzione mezzi di trasporto
+Apparati, impianti e servizi tecnici industriali e civili
+Ai sensi della legge regionale n. 15/2011, che ha istituito nella Regione Emilia-Romagna il sistema di istruzione e formazione professionale (IeFP), al termine del terzo
+anno gli studenti potranno conseguire i seguenti diplomi di qualifica: Operatore
+sistemi elettrico-elettronico, Operatore meccanico, Operatore degli impianti termo-idraulici, Operatore meccatronico dell’autoriparazione
+    </string>
+
+    <string name="des_elet1">L’opzione “Apparati, impianti e servizi tecnici industriali e civili” specializza e integra le conoscenze e competenze in uscita all’indirizzo, coerente con la filiera
+produttiva di riferimento e con le esigenze del territorio</string>
+    <string name="des_elet2">L’opzione “Apparati, impianti e servizi tecnici industriali e civili” specializza e integra le conoscenze e competenze in uscita all’indirizzo, coerente con la filiera
+produttiva di riferimento e con le esigenze del territorio, con competenze rispondenti ai fabbisogni delle aziende impegnate nella manutenzione di apparati e impianti
+elettrici, elettromeccanici termici, industriali e civili, e relativi servizi tecnici.</string>
+
+
+    <string name="title_des">Descrizione</string>
+
+    <string name="project_desi">Progetto Desi</string>
+    <string name="project_mast">Progetto MAST.</string>
+    <string name="project_carp">Progetto Carpigiani</string>
+    <string name="project_filo">Progetto Filosofia</string>
+    <string name="project_opus">Progetto Opus Facere</string>
+    <string name="project_texa">Progetto Texa Edu</string>
+    <string name="project_stem">Progetto Stem</string>
+    <string name="project_toyota">Progetto Toyota</string>
+    <string name="project_magneti">Progetto Magneti Marelli</string>
+
+
+    <string name="des_desi1">Il Progetto DESI III è un percorso formativo duale, un programma congiunto di attività didattica in aula e di formazione in azienda, caratterizzato dal rafforzamento dell’alternanza scuola-lavoro</string>
+    <string name="des_desi2">Il Progetto DESI III è un percorso formativo duale, un programma congiunto di attività didattica in aula e di formazione in azienda, caratterizzato dal rafforzamento
+                             dell’alternanza scuola-lavoro. Esso valorizza la continuità dei percorsi e l’apprendimento nei contesti di lavoro e permette agli studenti di proseguire il proprio
+                             percorso formativo corredato da ulteriori esperienze formative di training on the job, della durata complessiva di 1.000 ore, presso i Training Center dell’azienda Ducati
+                             Motor Holding S.p.A.</string>
+    <string name="carp_carp1">Il progetto è finalizzato all’attuazione di attività che portino i giovani ad avvicinarsi e a conoscere: La cultura del prodotto gelato come cibo italiano fondato su una lunga tradizione gastronomica;
+                              I concetti di qualità e artigianalità che contraddistinguono il prodotto italiano nel mondo e l’importanza della loro tutela;</string>
+    <string name="carp_carp2">Il progetto è finalizzato all’attuazione di attività che portino i giovani ad avvicinarsi e a conoscere: La cultura del prodotto gelato come cibo italiano fondato su una lunga tradizione gastronomica;
+                              I concetti di qualità e artigianalità che contraddistinguono il prodotto italiano nel mondo e l’importanza della loro tutela; I processi di automazione e produzione, tipici del gruppo
+                              “Carpigiani-ALI SpA”, che contribuiscono in maniera sostanziale a creare ed esportare prodotti di qualità ed eccellenza riconosciuti in tutto il mondo;</string>
+    <string name="des_mast1">La struttura del progetto prevede i seguenti passaggi: Engagement on line: gli studenti verranno invitati a collegarsi su una piattaforma digitale nella quale troveranno le prime
+                             informazioni utili al loro progetto e conosceranno i loro docenti;</string>
+    <string name="des_mast2">
+        La struttura del progetto prevede i seguenti passaggi:
+        Engagement on line: gli studenti verranno invitati a collegarsi su
+        una piattaforma digitale nella quale troveranno le prime
+        informazioni utili al loro progetto e conosceranno i loro docenti;
+        Lancio del progetto: docenti e tutor si recheranno a scuola per
+        conoscere gli studenti e presentare loro, in dettaglio, in cosa
+        consiste il progetto;
+        Soft skills e Team building: gli studenti riceveranno interessanti
+        spunti sulle tecniche di comunicazione e sul team working;
+        Innovation journey: il viaggio nell’innovazione attraverso gli spazi
+        della MAST.GALLERY offrirà ai partecipanti un’esperienza di
+        apprendimento interattiva individuale e di gruppo;
+        Viaggi in impresa: il percorso prevederà concrete esperienze di
+        “scoperta” di un’impresa, favorendo la conoscenza della sua
+        struttura, dei suoi mercati e delle sue tecnologie;
+        Photo session e Work in progress: durante questa tappa, i
+        partecipanti avranno l’occasione di entrare nel territorio della
+        fotografia industriale e riflettere sul linguaggio di comunicazione
+        delle immagini;
+        Contest: alla fine del percorso i gruppi presenteranno i risultati dei
+        loro lavori;
+        Debrief: tutti insieme rifletteremo sull’esperienza appena conclusa,
+        traendo importanti insegnamenti
+    </string>
+
+    <string name="des_filo1">
+        Il primo e il secondo anno di corso rappresentano una “palestra” per insegnare
+        agli studenti ad allenarsi al pensiero critico ed al confronto attraverso la
+        “palestra di botta e risposta”. L’allievo si abitua ad argomentare la propria tesi
+        in modo corretto e senza prevaricare gli altri.
+    </string>
+    <string name="des_filo2">
+        Il primo e il secondo anno di corso rappresentano una “palestra” per insegnare
+        agli studenti ad allenarsi al pensiero critico ed al confronto attraverso la
+        “palestra di botta e risposta”. L’allievo si abitua ad argomentare la propria tesi
+        in modo corretto e senza prevaricare gli altri.
+        Il progetto coinvolgerebbe 4 classi prime due classi durante il trimestre e due
+        classi durante il pentamestre. In entrambi i casi le ore saranno 25 per classe da
+        distribuire 2h a settimana, per 12 settimane.
+    </string>
+
+    <string name="des_opus1">
+        Il laboratorio territoriale “OF-Opus facere fare per capire” si rivolge
+        a studenti e docenti delle scuole secondarie dell’area metropolitana
+        di Bologna, ma anche a famiglie e cittadini.
+    </string>
+    <string name="des_opus2">
+        Il laboratorio territoriale “OF-Opus facere fare per capire” si rivolge
+        a studenti e docenti delle scuole secondarie dell’area metropolitana
+        di Bologna, ma anche a famiglie e cittadini. Pone le scuole in stretto
+        rapporto con la nuova filiera per la formazione composta da
+        istituzioni locali pubbliche e private, università, centri di ricerca e
+        imprese, puntando sulle vocazioni produttive più all’avanguardia e
+        trainanti per il futuro del territorio: salute e benessere,
+        meccatronica e motoristica, agroalimentare, ricerca sui nuovi
+        materiali, automazione, sviluppo delle ICT e dei Big Data in tutti i
+        settori considerati.
+    </string>
+
+    <string name="des_texa1">
+        TEXAEDU fornisce competenze di meccatronica agli studenti di
+        scuole tecniche-professionali . A seguito dell’introduzione di tecnologie
+        elettroniche nei veicoli, anche il mercato della riparazione, ha subito
+        cambiamenti.
+    </string>
+    <string name="des_texa2">
+        TEXAEDU fornisce competenze di meccatronica agli studenti di
+        scuole tecniche-professionali . A seguito dell’introduzione di tecnologie
+        elettroniche nei veicoli, anche il mercato della riparazione, ha subito
+        cambiamenti. La conoscenza delle componenti meccaniche oggigiorno
+        rappresenta soltanto una piccola parte delle abilità necessarie. Per poter
+        intervenire sui sistemi elettronici che governano i veicoli moderni è necessaria
+        una nuova e più approfondita preparazione, sempre più specialistica, che
+        metta il meccanico nelle condizioni di conoscere e riparare le anomalie dei
+        dispositivi elettronici, che costituiscono oramai una quota considerevole dei
+        guasti che si presentano in officina.
+    </string>
+
+    <string name="des_stem1">
+        Gruppi di ragazzi e ragazze appartenenti a discipline diverse lavorano per
+        realizzare prototipi e prodotti concretizzando concetti appresi in maniera
+        teorica e riscoprendo la dimensione creativa dell’apprendimento
+    </string>
+    <string name="des_stem2"></string>
+
+
+    <string name="title_book">Prenota il tuo Open Day</string>
+    <string name="des_book">Inserire i dati richiesti per prenotare l\'Open Day e accettare i Termini sulla Privacy</string>
+
+    <string name="linf">Laboratorio di Informatica</string>
+    <string name="ltps">Laboratorio di TPS</string>
+    <string name="lsis">Laboratorio di Sistemi e Reti</string>
+
+    <string name="ltps_des">
+        Laboratorio pensato per una didattica progettuale, in questo laboratorio si studia programmazione web e gestione di progetti. I linguaggi che si studiano sono HTML, CSS, JavaScript, Java, XML. Essa è incentrata sull\'unire tutte le competenze delle altre materie di indirizzo
+    </string>
+
+    <string name="linf_des">
+        Laboratorio adatto ad applicazioni pratiche e sviluppo software mediante svariati linguaggi di programmazione. I linguaggi studiati nell\'indirizzo informatico sono: Java, C++, PHP, Sql. Java viene studiato nel triennio i primi due anni, quindi il terzo e il quarto, mentre C++ viene studiato il secondo anno per finire PHP e Sql vengono affrontati solo al quinto anno.
+    </string>
+
+
+    <string-array name="Day">
+        <item>23</item>
+        <item>14</item>
+        <item>18</item>
+    </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+</resources>

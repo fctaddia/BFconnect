@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlnot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:nestedScrollingEnabled="false"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants">
+
+        <TextView
+            android:id="@+id/profile_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/bfconnect"
+            android:text="Profilo"
+            android:textColor="@color/black"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/profile_text"
+            android:fontFamily="@font/bfconnect_font"
+            android:text="Preferiti"
+            android:textSize="20sp"
+            android:textColor="@color/black" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pref"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="12dp"
+            android:focusable="false"
+            android:focusableInTouchMode="true" />
+
+        <TextView
+            android:id="@+id/room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rvFav"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/bfconnect_font"
+            android:text="Laboratori"
+            android:textSize="20sp"
+            android:textColor="@color/black" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvRoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/room"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="12dp"
+            android:focusable="false"
+            android:focusableInTouchMode="true" />
+    </RelativeLayout>
+
+
+</ScrollView>

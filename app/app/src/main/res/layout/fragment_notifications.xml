@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:nestedScrollingEnabled="false"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants">
+
+        <TextView
+            android:id="@+id/notify_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/bfconnect"
+            android:text="Notifiche"
+            android:textColor="@color/black"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pdfS"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/notify_text"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/white"
+            android:elevation="2dp"
+            android:visibility="visible"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="19.5dp"
+                    android:layout_marginTop="19.5dp"
+                    android:src="@drawable/ic_pdf">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="17.5dp"
+                    android:layout_marginEnd="15.5dp"
+                    android:fontFamily="@font/bfconnect"
+                    android:text="I PDF sono scaricati nella cartella Download del tuo telefono"
+                    android:textSize="17sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/shape_line" />
+
+            <LinearLayout
+                android:id="@+id/file"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/shape_cardview"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="@drawable/custom_ripple"
+                android:gravity="center_vertical"
+                android:orientation="vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/bfconnect"
+                android:text="Apri"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+</ScrollView>

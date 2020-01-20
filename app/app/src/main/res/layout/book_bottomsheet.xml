@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".helper.BookingActivity">
+
+    <LinearLayout
+        android:id="@+id/person_choose"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:fontFamily="@font/bfconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="Persone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/customTitle"
+            />
+
+        <com.app.bfconnect.customview.spinner.CustomSpinner
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:id="@+id/spinnerParents">
+
+        </com.app.bfconnect.customview.spinner.CustomSpinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/persona1"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtPersona1"
+            android:visibility="gone"
+            android:fontFamily="@font/bfconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Persona 1"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/customTitle"
+            />
+
+        <TextView
+            android:fontFamily="@font/bfconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Nome"
+            android:textColor="@color/black"
+            android:textSize="@dimen/customTitle"
+            />
+
+        <EditText
+            android:fontFamily="@font/bfconnect"
+            android:textStyle="normal"
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:hint="Inserisci il nome"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="@dimen/customEntry"
+            tools:ignore="Autofill,HardcodedText,LabelFor"
+            />
+
+
+        <TextView
+            android:fontFamily="@font/bfconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Cognome"
+            android:textColor="@color/black"
+            android:textSize="@dimen/customTitle"
+            />
+
+        <EditText
+            android:fontFamily="@font/bfconnect"
+            android:id="@+id/txtCogn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:hint="Inserisci il cognome"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="@dimen/customEntry"
+            tools:ignore="Autofill,HardcodedText,LabelFor"
+            />
+
+        <TextView
+            android:fontFamily="@font/bfconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Codice Carta d'Identità"
+            android:textColor="@color/black"
+            android:textSize="@dimen/customTitle"
+            />
+
+        <EditText
+            android:fontFamily="@font/bfconnect"
+            android:id="@+id/txtCI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:hint="Inserisci il codice della CI"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="@dimen/customEntry"
+            tools:ignore="Autofill,HardcodedText,LabelFor"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/persona2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="@font/bfconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:textStyle="bold"
+            android:text="Persona 2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/customTitle"
+            />
+
+        <TextView
+            android:fontFamily="@font/bfconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Nome"
+            android:textColor="@color/black"
+            android:textSize="@dimen/customTitle"
+            />
+
+        <EditText
+            android:fontFamily="@font/bfconnect"
+            android:textStyle="normal"
+            android:id="@+id/txtName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:hint="Inserisci il nome"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="@dimen/customEntry"
+            tools:ignore="Autofill,HardcodedText,LabelFor"
+            />
+
+
+        <TextView
+            android:fontFamily="@font/bfconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Cognome"
+            android:textColor="@color/black"
+            android:textSize="@dimen/customTitle"
+            />
+
+        <EditText
+            android:fontFamily="@font/bfconnect"
+            android:id="@+id/txtCogn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:hint="Inserisci il cognome"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="@dimen/customEntry"
+            tools:ignore="Autofill,HardcodedText,LabelFor"
+            />
+
+        <TextView
+            android:fontFamily="@font/bfconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Codice Carta d'Identità"
+            android:textColor="@color/black"
+            android:textSize="@dimen/customTitle"
+            />
+
+        <EditText
+            android:fontFamily="@font/bfconnect"
+            android:id="@+id/txtCI1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:hint="Inserisci il codice della CI"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="@dimen/customEntry"
+            tools:ignore="Autofill,HardcodedText,LabelFor"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/giorni"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:fontFamily="@font/bfconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="Giorno"
+            android:textColor="@color/black"
+            android:textSize="@dimen/customTitle"
+            />
+
+        <com.app.bfconnect.customview.spinner.CustomSpinner
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:id="@+id/spinnerDay">
+
+        </com.app.bfconnect.customview.spinner.CustomSpinner>
+
+        <TextView
+            android:fontFamily="@font/bfconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="Ora"
+            android:textColor="@color/black"
+            android:textSize="@dimen/customTitle"
+            />
+
+        <com.app.bfconnect.customview.spinner.CustomSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:id="@+id/spinnerHour">
+
+        </com.app.bfconnect.customview.spinner.CustomSpinner>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:fontFamily="@font/bfconnect"
+        android:textStyle="bold"
+        android:id="@+id/showPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="Accetta i Termini della Privacy"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="15dp"
+        />
+
+</LinearLayout>
