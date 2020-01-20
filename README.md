@@ -17,3 +17,10 @@ BFconnect allows each school to **innovate**, therefore to bring its information
 The technological novelty lies in the use of the **NFC tag**, an electronic device that transmits information to the phone simply by bringing it closer to it (4 cm max). These tags are stickers and will be scattered inside the school building at the entrance of the main laboratories.
 Going around the school, families will be able to receive information about workshops and addresses **simply** by approaching their phone, also it is possible to download pdf files relating to each training course offered by IIS Belluzzi-FIoravanti.
 For those who have a device that cannot read the NFC tag, it will still be possible to use the application through the use of the **QRcode**.
+
+### Why would I use it?
+
+BFconnect is the **only** app that allows people to understand the **value** of the school they are visiting, giving them the **opportunity** to bring home the information obtained within the school, not only training plans related to the school's addresses but also offering interactive content on the **laboratories** that make up the school.
+The IIS Belluzzi Fioravanti has already adopted this application and already **benefits** from the numerous advantages of BFconnect including greater **visibility** both on the web and in the field of smartphones.
+A school should adopt it because with BFconnect it is possible to have a statistics of the number of **interest** for each address of the school so as to know what to improve in **future**.
+To conclude, it is no longer the same **Open Day with BFconnect**.
