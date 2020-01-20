@@ -1,4 +1,4 @@
-<div align="center"><img src="./docs/ic_bf_connect_horizontal.png" alt="BFconnect Logo"><br></div>
+![BFconnect](./docs/ic_bf_connect_horizontal.png)
 
 ## BFconnect
 The first app of IIS Belluzzi Fioravanti.
