@@ -10,4 +10,4 @@ It is desirable, thought not absolutely neccessary that the following boxes are 
 - Ensure that your code is based on a fairly recent child of the master branch.
 - Have clear commit messages, this makes it easy to identify what changes were made when.
 - Include additional tests if required. This ensures that individual components behave as expected and if there are any future changes, that they do not break your code unknowingly.
-- Ensure that you've read the [code of conduct](./CODE_OF_CONDUCT.md)!
+- Ensure that you've read the [code of conduct](./docs/CODE_OF_CONDUCT.md)!
