@@ -5,10 +5,9 @@ The first app of IIS Belluzzi Fioravanti.
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.3.61-E60202.svg?style=flat-square)](http://kotlinlang.org)
 [![AndroidX](https://img.shields.io/badge/AndroidX-1.3.1-db641a.svg?style=flat-square)](https://developer.android.com/jetpack/androidx/)
+[![PlayStore](https://img.shields.io/badge/PlayStore-download%20apk-fc034e.svg?style=flat-square)](https://play.google.com/store/apps/details?id=org.iisbelluzzifioravanti.app.bfconnect)
 [![GitHub (pre-)release](https://img.shields.io/github/v/release/fctaddia/bfconnect.svg?include_prereleases&style=flat-square)
 ](./../../releases)
-
-<a href="https://play.google.com/store/apps/details?id=org.iisbelluzzifioravanti.app.bfconnect" target="blank"> <img src="./docs/badge_playstore.png" width="170" height="50"></a>
 
 BFconnect is an innovative application that allows people who come to visit the institute to obtain information quickly and easily on school places.
 
