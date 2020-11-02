@@ -6,7 +6,7 @@ The first app of IIS Belluzzi Fioravanti.
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.3.61-E60202.svg?style=flat-square)](http://kotlinlang.org)
 [![AndroidX](https://img.shields.io/badge/AndroidX-1.3.1-db641a.svg?style=flat-square)](https://developer.android.com/jetpack/androidx/)
 [![PlayStore](https://img.shields.io/badge/PlayStore-download%20app-fc034e.svg?style=flat-square)](https://play.google.com/store/apps/details?id=org.iisbelluzzifioravanti.app.bfconnect)
-[![GitHub (pre-)release](https://img.shields.io/github/v/release/fctaddia/bfconnect.svg?include_prereleases&style=flat-square)
+[![GitHub (pre-)release](https://img.shields.io/github/v/release/fctaddia/bfconnect.svg?style=flat-square)
 ](./../../releases)
 [![License](https://img.shields.io/github/license/fctaddia/NfcTools?color=03DAC5&label=License)](https://opensource.org/licenses/MIT)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0315d50c284d400fb588ee709f619fbd)](https://www.codacy.com/manual/fctaddia/BFconnect?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fctaddia/BFconnect&amp;utm_campaign=Badge_Grade)
